@@ -12,6 +12,11 @@ by Takaya S.
 - nodejs
 - nginx
 
+## それぞれのページURL
+- frontend : http://localhost:3000/ 
+- backend : http://localhost:8080/
+- nginx : http://localhost:9000/
+
 ## 注意事項
 - frontendのライブラリインストールはyarnとpackage.jsonで管理。追加するには、frontendコンテナのターミナルに入って、以下を実行する。
   - yarn add <package name>
