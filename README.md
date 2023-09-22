@@ -2,20 +2,23 @@ by Takaya S.
 # Waiting System
 
 ## 環境構築手順
+以下の手順を踏むことで環境構築が可能。
 1. docker desktopをインストール→起動
 2. git clone git@github.com:TakayaShimabukuro/onct-12th.git
 3. docker-compose up -d
 
+## それぞれのページURL
+dockerが立ち上がったら以下のURLにアクセスできる。
+- frontend : http://localhost:3000/ 
+- backend : http://localhost:8080/
+- nginx : http://localhost:9001/
 ## 使用言語
 - React
 - fastAPI
 - nodejs
 - nginx
 
-## それぞれのページURL
-- frontend : http://localhost:3000/ 
-- backend : http://localhost:8080/
-- nginx : http://localhost:9000/
+
 
 ## 注意事項
 - frontendのライブラリインストールはyarnとpackage.jsonで管理。追加するには、frontendコンテナのターミナルに入って、以下を実行する。
